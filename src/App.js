@@ -7,9 +7,15 @@ import Home from './Components/Home';
 import logo from './logo.svg';
 
 import './App.css';
+import Header from './Components/Header';
 
 const App = () => (
-  <Home/>
+  <Router>
+    <Header/>
+    <Routes>
+      <Route path='/' element={<Home />} />
+    </Routes>
+  </Router>
 );
 
 export default App;
