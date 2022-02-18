@@ -12,4 +12,12 @@ export const GlobalStyle = createGlobalStyle`
         --fontMed: 1.2rem;
         --fontSmall: 1rem;
     }
+
+    * {
+        box-sizing: border-box;
+        background-color: #282A39;
+        font-family: 'Poppins', cursive;
+    }
+
+    
 `;

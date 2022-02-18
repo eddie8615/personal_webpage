@@ -5,25 +5,69 @@ export const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 70px;
-    background: var(--medGrey);
-    color: var(--white);
+    height: 100px;
+
 `;
 
-export const Content = styled.div`
+export const Content = styled.ul`
     display: flex;
-    justify-content: right;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
+    height: 100px;
+    margin-bottom: 0;
     max-width: var(--maxWidth);
-    padding: 0 20px;
-    
-    span{
-        font-size: var(--fontMed);
-        color: var(--white);
-        padding-right: 10px;
+    font-weight: 200;
 
-        @media screen and (max-width: 768px){
-            font-size: var(--fontSmall);
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        display: inline-block;
+        width: 120px;
+        height: 100%;
+        border-radius: 10px;
+        padding: 15px 15px 15px 15px;
+        text-align: center;
+        position: relative;
+        color: var(--white);
+        list-style: none;
+
+        :hover{
+            background-color: #F67B59;
         }
+    }
+
+    .active {
+        
+        li {
+            background-color: #F67B59;
+        }
+    }   
+`;
+
+export const Item = styled.ul`
+    display: inline-block;
+    
+    min-width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    border: 0;
+    color: var(--white);
+    font-size: var(--fontMed);
+    cursor: pointer;
+
+    a {
+        text-decoration: none;
+    }
+
+    .current {
+        li {
+            background-color: #F67B59;
+        }
+    }
+    :hover{
+        background-color: #F67B59
     }
 `;
