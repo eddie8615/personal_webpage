@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100px;
+    height: 70px;
 
 `;
 
@@ -14,7 +14,6 @@ export const Content = styled.ul`
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 100px;
     margin-bottom: 0;
     max-width: var(--maxWidth);
     font-weight: 200;
@@ -25,10 +24,10 @@ export const Content = styled.ul`
 
     li {
         display: inline-block;
-        width: 120px;
+        width: 100px;
         height: 100%;
         border-radius: 10px;
-        padding: 15px 15px 15px 15px;
+        padding: 10px 10px 10px 10px;
         text-align: center;
         position: relative;
         color: var(--white);

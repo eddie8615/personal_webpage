@@ -1,9 +1,14 @@
 import React from 'react';
 // Components
-import Header from './Header';
+import HomeImage from './HomeImage';
 
-const Home = () => (
-    <div>Home</div>
-)
+const Home = () => {
+    return (
+        <>
+            <HomeImage/>
+        </>
+    )
+}
+
 
 export default Home;
