@@ -15,9 +15,10 @@ export const GlobalStyle = createGlobalStyle`
 
     * {
         box-sizing: border-box;
-        background-color: #282A39;
-        font-family: 'Poppins', cursive;
+        background-color: #1b3c4f;
+        font-family: 'Poppins', sans-serif;
     }
 
     
 `;
+// 212E51

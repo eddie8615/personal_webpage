@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Wrapper } from './HomeImage.Styles';
-import Image from '../../Images/IMG-0798.jpg';
+import Image from '../../Images/IMG-3581.jpg';
 
 const HomeImage = () => (
     <Wrapper image={Image}>

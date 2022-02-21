@@ -16,7 +16,9 @@ export const Content = styled.ul`
     width: 100%;
     margin-bottom: 0;
     max-width: var(--maxWidth);
-    font-weight: 200;
+    font-weight: 500;
+    font-family: 'Poppins Medium', sans-serif;
+
 
     a {
         text-decoration: none;
@@ -32,16 +34,17 @@ export const Content = styled.ul`
         position: relative;
         color: var(--white);
         list-style: none;
+        
 
         :hover{
-            background-color: #F67B59;
+            background-color: #2D7992;
         }
     }
 
     .active {
         
         li {
-            background-color: #F67B59;
+            background-color: #2D7992;
         }
     }   
 `;
