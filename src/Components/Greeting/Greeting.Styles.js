@@ -15,7 +15,17 @@ export const Text = styled.div`
     margin-left: 10px;
     min-height: 100px;
     font-weight: 600;
-    color: var(--white);
+    color: var(--lightGrey);
+    animation: animateHomeImage 1s;
+
+    @keyframes animateHomeImage {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
 
     h1{
         font-size: var(--fontSuperBig);
@@ -36,6 +46,11 @@ export const Text = styled.div`
         @media screen and (max-width: 720px){
             font-size: var(--fontsmall);
         }
+    }
+
+    a {
+        color: #2D7992;
+        text-decoration: none;
     }
 
     @media screen and (max-width: 720px){
