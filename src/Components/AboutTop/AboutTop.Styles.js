@@ -5,13 +5,6 @@ export const Wrapper = styled.div`
     margin: 10px auto;
 `;
 
-export const Content = styled.div`
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-
-`;
-
 export const Text = styled.div`
     
     /* position: absolute; */
@@ -38,7 +31,7 @@ export const Text = styled.div`
     }
     h2 {
         font-size: var(--fontBig);
-        margin: 10px;
+        margin: 0px;
     }
 
     p {
@@ -64,5 +57,5 @@ export const Text = styled.div`
 
 export const Line = styled.hr`
     color: rgba(0, 0, 0, 0.65);
-    margin-left: -100px;
+    /* margin-left: 100px; */
 `;

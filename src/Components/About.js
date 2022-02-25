@@ -1,19 +1,19 @@
 import React from 'react';
-import { Wrapper, Content, Text, Line } from './About.Styles';
+import { Wrapper, Content, Text, Line } from './AboutTop/AboutTop.Styles';
+
+import AboutTop from './AboutTop';
+import Section from './Sections';
 
 const About = () => (
-    <Wrapper>
-        <Content>
-            <Text>
-                <h1>Changhyun Kim</h1>
-                <h2>Android Developer</h2>
-                <h2>Software Developer</h2>
-                <h2>Data Analyst</h2>
-                <Line/>
-
-            </Text>
-        </Content>
-    </Wrapper>
+    
+    <>
+        <AboutTop>
+    
+        </AboutTop>
+        <Section></Section>
+    </>
+    
+    
 )
 
 export default About;
