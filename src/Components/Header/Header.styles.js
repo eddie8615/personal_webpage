@@ -17,7 +17,7 @@ export const Content = styled.ul`
     margin-bottom: 0;
     max-width: var(--maxWidth);
     font-weight: 500;
-    font-family: 'Poppins Medium', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 
     a {

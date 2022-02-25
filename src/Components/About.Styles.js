@@ -2,18 +2,19 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     max-width: var(--maxWidth);
-    padding: 20px;
+    margin: 10px auto;
 `;
 
 export const Content = styled.div`
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
 `;
 
 export const Text = styled.div`
-    z-index: 100;
-    max-width: 700px;
-    position: absolute;
-    margin-left: 10px;
-    min-height: 100px;
+    
+    /* position: absolute; */
     font-weight: 600;
     color: var(--lightGrey);
     animation: animateHomeImage 1s;
@@ -29,12 +30,15 @@ export const Text = styled.div`
 
     h1{
         font-size: var(--fontSuperBig);
-        font-family: 'Poppins', sans-serif;
         font-weight: 600;
 
         @media screen and (max-width: 720px){
             font-size: var(--fontBig)
         }
+    }
+    h2 {
+        font-size: var(--fontBig);
+        margin: 10px;
     }
 
     p {
@@ -56,4 +60,9 @@ export const Text = styled.div`
     @media screen and (max-width: 720px){
         max-width: 100%
     }
+`;
+
+export const Line = styled.hr`
+    color: rgba(0, 0, 0, 0.65);
+    margin-left: -100px;
 `;

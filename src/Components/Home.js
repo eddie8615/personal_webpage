@@ -8,10 +8,7 @@ const Home = () => {
     return (
         <>
             <Grid leftImage={Image}>
-
             </Grid>
-            {/* <HomeImage/> */}
-
         </>
     )
 }
